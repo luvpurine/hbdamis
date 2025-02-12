@@ -73,7 +73,6 @@ h6{
     
     height: clamp(8vw, 10vw, 6em);
     width: 100%;
-    overflow: hidden;
     display: flex;
     white-space: nowrap;
     
