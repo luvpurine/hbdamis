@@ -71,10 +71,12 @@ h6{
 
 .wishContainer{
     
-    height: clamp(8vw, 10vw, 6em);
     width: 100%;
     display: flex;
     white-space: nowrap;
+    position:  relative;
+    bottom: 3vh;
+    height: 25vh;
     
 }
 
