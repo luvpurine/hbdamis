@@ -124,13 +124,44 @@ h6{
     font-family: altehaas;
  }
 
- form{
+form{
     margin-top: 2.5vh;
  }
 
- audio{
+audio{
     position: relative;
     left: 60vw;
     bottom: 22.5vh;
     background-color: beige;
  }
+
+#camila{
+    text-align: center;
+}
+
+#cam16{
+    height: 80vh;
+   
+    transform:rotateZ(7.5deg);
+    
+    float: right;
+    position: relative;
+    
+    left: 2.5%;
+
+}
+
+#cam16Letter{
+    font-family: natural;
+    padding: 2%;
+    transform:rotateZ(-2.5deg);
+    font-size: 89%;
+    padding-right: 7%;
+    display: inline-flex;
+    height: 160vh;;
+    line-height: 160%;
+    display: flow-root;
+    color: rgba(22, 8, 6, 0.556);
+    background-image: url(paper.JPG);
+
+}
