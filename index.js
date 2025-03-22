@@ -14,7 +14,7 @@ document.getElementById('lgButt').addEventListener('click', function(){
         document.getElementById('wrongPass').style.display = 'none';
         document.getElementById('scarlett').style.display = 'block';
     }
-    else if(inputValue == 'yejiworlddomination'){
+    else if (inputValue == 'yejiworlddomination'){
         document.getElementById('home').style.display = 'none';
         document.getElementById('wrongPass').style.display = 'none';
         document.getElementById('camila').style.display = 'block';
