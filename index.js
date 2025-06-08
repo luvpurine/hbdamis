@@ -45,5 +45,5 @@ document.getElementById('camilaImg').addEventListener('click', function(){
 document.getElementById('addisonImg').addEventListener('click', function(){
     console.log('f-faster~')
     document.getElementById('addison').style.display = 'none';
-    document.getElementById('addison16').style.display = 'block';
+    document.getElementById('addy16').style.display = 'block';
 })
