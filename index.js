@@ -24,6 +24,11 @@ document.getElementById('lgButt').addEventListener('click', function(){
         document.getElementById('wrongPass').style.display = 'none';
         document.getElementById('addison').style.display = 'block';
     }
+    else if (inputValue == 'ihatestats'){
+        document.getElementById('home').style.display = 'none';
+        document.getElementById('wrongPass').style.display = 'none';
+        document.getElementById('chloe').style.display = 'block';
+    }
     else {
         document.getElementById('wrongPass').style.display = 'block';
     }
