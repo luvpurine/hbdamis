@@ -52,3 +52,9 @@ document.getElementById('addisonImg').addEventListener('click', function(){
     document.getElementById('addison').style.display = 'none';
     document.getElementById('addy16').style.display = 'block';
 })
+
+document.getElementById('chloeImg').addEventListener('click', function(){
+    console.log('f-faster~')
+    document.getElementById('chloe').style.display = 'none';
+    document.getElementById('chlo16').style.display = 'block';
+})
