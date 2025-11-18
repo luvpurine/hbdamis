@@ -29,6 +29,11 @@ document.getElementById('lgButt').addEventListener('click', function(){
         document.getElementById('wrongPass').style.display = 'none';
         document.getElementById('chloe').style.display = 'block';
     }
+     else if (inputValue == 'projectdollars'){
+        document.getElementById('home').style.display = 'none';
+        document.getElementById('wrongPass').style.display = 'none';
+        document.getElementById('crystal').style.display = 'block';
+    }
     else {
         document.getElementById('wrongPass').style.display = 'block';
     }
@@ -57,4 +62,10 @@ document.getElementById('chloeImg').addEventListener('click', function(){
     console.log('f-faster~')
     document.getElementById('chloe').style.display = 'none';
     document.getElementById('chlo16').style.display = 'block';
+})
+
+document.getElementById('crystalImg').addEventListener('click', function(){
+    console.log('a-ah~!')
+    document.getElementById('crystal').style.display = 'none';
+    document.getElementById('cry17').style.display = 'block';
 })
