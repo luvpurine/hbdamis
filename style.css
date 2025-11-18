@@ -229,3 +229,35 @@ audio{
     background-image: url(paper.JPG);
 
 }
+
+
+#crystal{
+    text-align: center;
+}
+
+#cry17{
+    height: 80vh;
+   
+    transform:rotateZ(7.5deg);
+    
+    float: right;
+    position: relative;
+    
+    left: 2.5%;
+
+}
+
+#cry17Letter{
+    font-family: natural;
+    padding: 2%;
+    transform:rotateZ(-2.5deg);
+    font-size: 89%;
+    padding-right: 7%;
+    display: inline-flex;
+    height: 160vh;;
+    line-height: 160%;
+    display: flow-root;
+    color: rgba(22, 8, 6, 0.556);
+    background-image: url(paper.JPG);
+
+}
